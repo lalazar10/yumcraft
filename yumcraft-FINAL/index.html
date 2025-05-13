@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yumcraft</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>yumcraft</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="#" id="about-link">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Discover Delicious Recipes</h2>
+                <p>Find inspiration for your next meal with our collection of handpicked recipes</p>
+                <a href="categories.html" class="btn">Browse Categories</a>
+            </div>
+        </section>
+
+        <section class="featured">
+            <div class="container">
+                <h2>Popular Categories</h2>
+                <div class="category-grid" id="featured-categories">
+                    <!-- Categories loaded via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section class="latest">
+            <div class="container">
+                <h2>Latest Recipes</h2>
+                <div class="recipe-grid" id="latest-recipes">
+                    <!-- Recipes loaded via JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <div id="about-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>About yumcraft</h2>
+            <p>Welcome to yumcraft, your destination for delicious, easy-to-follow recipes. Our mission is to inspire home cooks of all skill levels with fresh ideas and timeless classics.</p>
+            <p>All recipes are carefully tested and curated to ensure the best results in your kitchen.</p>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

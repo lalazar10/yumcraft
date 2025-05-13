@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Categories | yumcraft</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>yumcraft</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="#" id="about-link">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="category-header">
+            <div class="container">
+                <h2>Recipe Categories</h2>
+                <p>Browse our recipes by category to find exactly what you're looking for</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="category-grid" id="all-categories">
+                    <!-- Categories loaded via JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="about-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>About yumcraft</h2>
+            <p>Welcome to yumcraft, your destination for delicious, easy-to-follow recipes. Our mission is to inspire home cooks of all skill levels with fresh ideas and timeless classics.</p>
+            <p>All recipes are carefully tested and curated to ensure the best results in your kitchen.</p>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
